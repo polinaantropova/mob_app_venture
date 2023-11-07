@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_main"
+    tools:context="space.poliantr.Venture.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/tvGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Hello! \nLet's start!"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_500"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBall"
+            android:layout_width="320dp"
+            android:background="@drawable/styles"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:height="90dp"
+            android:padding="20dp"
+            android:layout_marginVertical="15dp"
+            android:text="Magic Ball"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/btnCoin"
+            android:layout_width="320dp"
+            android:background="@drawable/styles"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:height="90dp"
+            android:padding="20dp"
+            android:layout_marginVertical="15dp"
+            android:text="Coin"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/btnTip"
+            android:layout_width="320dp"
+            android:background="@drawable/styles"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:height="90dp"
+            android:padding="20dp"
+            android:layout_marginVertical="15dp"
+            android:text="Daily tip"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
